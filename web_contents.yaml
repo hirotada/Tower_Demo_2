@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+    - name: Store Web contents
+      lineinfile:
+        create: yes
+        path: /var/www/html/index.html
+        line: 'Hello world'
