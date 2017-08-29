@@ -5,4 +5,5 @@
       lineinfile:
         create: yes
         path: /var/www/html/index.html
-        line: "Hello Ansible"
+        regexp: '^Hello'
+        line: 'Hello Ansible'
