@@ -6,4 +6,4 @@
         create: yes
         path: /var/www/html/index.html
         regexp: '^Hello'
-        line: 'Hello World test2'
+        line: 'Hello World'
